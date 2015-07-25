@@ -1,0 +1,6 @@
+vagrant la chuong trinh dung de quan ly may ao
+apt-get update
+tasksel install lamp-server
+apt-get install -y phpmyadmin
+apt-get install -y git
+

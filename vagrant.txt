@@ -2,5 +2,15 @@ vagrant la chuong trinh dung de quan ly may ao
 apt-get update
 tasksel install lamp-server
 apt-get install -y phpmyadmin
+#################################
 apt-get install -y git
+# tao public key upload len git
+ssh-keygen -t rsa -C "nguyenhuybangwa@gmail.com"
+# cau hinh git
+git config --global user.name "nguyenhuybangwa"
+git config --global user.email "nguyenhuybangwa@gmail.com"
+
+#tao ban clone ve may
+git clone git@github.com:nguyenhuybangwa/memo.git
+
 

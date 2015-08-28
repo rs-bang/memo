@@ -3,6 +3,14 @@ apt-get update
 tasksel install lamp-server
 apt-get install -y phpmyadmin
 #################################
+centos
+yum install git
+httpd,mysql-server
+
+apt-get update
+tasksel install lamp-server
+apt-get install -y phpmyadmin
+#################################
 apt-get install -y git
 # tao public key upload len git
 ssh-keygen -t rsa -C "nguyenhuybangwa@gmail.com"
